@@ -1,0 +1,30 @@
+
+### signup
+POST http://localhost:4321/api/auth/signup HTTP/1.1
+Content-Type: application/json
+
+{
+  "username":"username51",
+  "password":"password991"
+}
+
+### signin
+POST http://localhost:4321/api/auth/signin HTTP/1.1
+Content-Type: application/json
+
+{
+  "username":"username10",
+  "password":"password10"
+}
+
+### users
+GET http://localhost:4321/api/users HTTP/1.1
+Content-Type: application/json
+Access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOjQ1MzMwNDk5OSwiaXNzIjoiSGVsbG9GcjEzRU5EIiwiZXhwaXJlc0luIjoiMzAiLCJpYXQiOjE2MDgyMjMwNjV9.xBOVxSrXFUvkp2WjZfvOKvzJUB0zJ7Oc8CG4QhKbsbI
+
+
+### refresh-toke
+GET http://localhost:4321/api/refresh-token HTTP/1.1
+Content-Type: application/json
+Refresh-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOjQ1MzMwNDk5OSwiZXhwaXJlc0luIjoiMTBkIiwiaWF0IjoxNjA4MjIwODY5fQ.pU2VoHdANwUaMrNILP0ogEEcvS6s_Ssl_rmaORXL_ec
+
