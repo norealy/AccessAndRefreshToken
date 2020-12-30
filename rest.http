@@ -20,7 +20,7 @@ Content-Type: application/json
 ### users
 GET http://localhost:4321/api/users HTTP/1.1
 Content-Type: application/json
-Access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOjQ1MzMwNDk5OSwiaXNzIjoiSGVsbG9GcjEzRU5EIiwiZXhwaXJlc0luIjoiMzAiLCJpYXQiOjE2MDgyMjMwNjV9.xBOVxSrXFUvkp2WjZfvOKvzJUB0zJ7Oc8CG4QhKbsbI
+Access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOjQ1MzMwNDk5OSwiaXNzIjoiSGVsbG9GcjEzRU5EIiwiZXhwaXJlc0luIjoiMzAiLCJpYXQiOjE2MDgyMjQ0OTN9.On3Om3wSOvRSFyoimCpmlBIBw1bcZyG7JAYQotQfHN4
 
 
 ### refresh-toke
